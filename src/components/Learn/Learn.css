@@ -1,0 +1,16 @@
+/* make the height to fit the screen without having to over scroll . height: 100vh is not helpful*/
+.learn-container {
+  display: flex;
+  height: 100vh;
+}
+.learn-content {
+  flex: 1;
+  padding: 2rem;
+  background-color: #f5f7f8;
+  overflow: scroll;
+}
+.side-menu {
+  color: #777;
+  width: 300px;
+  overflow: scroll;
+}

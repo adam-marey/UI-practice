@@ -1,9 +1,9 @@
+/* make the nav stiky */
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #f8f9fa;
   color: #777;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -12,5 +12,4 @@
   color: #777;
   font-size: 16px;
   margin-right: 1rem;
-  transition: all 0.3s;
 }
